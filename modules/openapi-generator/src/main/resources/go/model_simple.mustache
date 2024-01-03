@@ -1,3 +1,8 @@
+
+{{#hasRequired}}
+    import "bytes"
+{{/hasRequired}}
+
 // checks if the {{classname}} type satisfies the MappedNullable interface at compile time
 var _ MappedNullable = &{{classname}}{}
 
